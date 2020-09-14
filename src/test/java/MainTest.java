@@ -11,7 +11,7 @@ public class MainTest {
 
     @Test
     public void multipleTest( ){
-        int answer = Main.add( 20, 10 );
+        int answer = Main.multiple( 20, 10 );
         Assert.assertEquals( answer, 200 );
     }
 
