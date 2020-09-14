@@ -15,4 +15,10 @@ public class MainTest {
         Assert.assertEquals( answer, 200 );
     }
 
+    @Test
+    public void divideTest( ){
+        int answer = Main.divide( 20, 10 );
+        Assert.assertEquals( answer, 2 );
+    }
+
 }
