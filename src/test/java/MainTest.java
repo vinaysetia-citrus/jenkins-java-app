@@ -9,4 +9,10 @@ public class MainTest {
         Assert.assertEquals( answer, 73 );
     }
 
+    @Test
+    public void multipleTest( ){
+        int answer = Main.add( 20, 10 );
+        Assert.assertEquals( answer, 200 );
+    }
+
 }
