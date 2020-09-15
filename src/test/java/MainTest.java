@@ -17,7 +17,7 @@ public class MainTest {
 
     @Test
     public void divideTest( ){
-        int answer = Main.multiple( 20, 10 );
+        int answer = Main.divide( 20, 10 );
         Assert.assertEquals( answer, 2 );
     }
 
